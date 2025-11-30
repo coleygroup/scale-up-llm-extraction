@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 485.9 648" style="enable-background:new 0 0 485.9 648;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#575757;fill-opacity:0.7;}
+	.st1{fill:#5F5F5F;fill-opacity:0.7;}
+	.st2{fill:#7D7D7D;fill-opacity:0.7;}
+	.st3{fill:#282828;fill-opacity:0.7;}
+	.st4{fill:#5A5A5A;fill-opacity:0.7;}
+	.st5{fill:#676767;fill-opacity:0.7;}
+	.st6{fill:#7C7C7C;fill-opacity:0.7;}
+	.st7{fill:#737373;fill-opacity:0.7;}
+	.st8{fill:#5C5C5C;fill-opacity:0.7;}
+	.st9{fill:#A0A0A0;fill-opacity:0.7;}
+	.st10{fill:#939393;fill-opacity:0.7;}
+	.st11{fill:#6B6B6B;fill-opacity:0.7;}
+	.st12{fill:#949494;fill-opacity:0.7;}
+	.st13{fill:#7E7E7E;fill-opacity:0.7;}
+	.st14{fill:#959595;fill-opacity:0.7;}
+	.st15{fill:#8E8E8E;fill-opacity:0.7;}
+	.st16{fill:#A5A5A5;fill-opacity:0.7;}
+	.st17{fill:#A7A7A7;fill-opacity:0.7;}
+	.st18{fill:#6C6C6C;fill-opacity:0.7;}
+	.st19{fill:#858585;fill-opacity:0.7;}
+	.st20{fill:#8F8F8F;fill-opacity:0.7;}
+	.st21{fill:#929292;fill-opacity:0.7;}
+	.st22{fill:#979797;fill-opacity:0.7;}
+	.st23{fill:#989898;fill-opacity:0.7;}
+	.st24{fill:#999999;fill-opacity:0.7;}
+	.st25{fill:#9C9C9C;fill-opacity:0.7;}
+	.st26{fill:#9E9E9E;fill-opacity:0.7;}
+	.st27{fill:#9F9F9F;fill-opacity:0.7;}
+	.st28{fill:#A1A1A1;fill-opacity:0.7;}
+	.st29{fill:#A2A2A2;fill-opacity:0.7;}
+	.st30{fill:#A3A3A3;fill-opacity:0.7;}
+	.st31{fill:#A4A4A4;fill-opacity:0.7;}
+	.st32{fill:#A6A6A6;fill-opacity:0.7;}
+	.st33{fill:#A8A8A8;fill-opacity:0.7;}
+	.st34{fill:#A9A9A9;fill-opacity:0.7;}
+	.st35{fill:#AAAAAA;fill-opacity:0.7;}
+	.st36{fill:#ABABAB;fill-opacity:0.7;}
+	.st37{fill:#ACACAC;fill-opacity:0.7;}
+	.st38{fill:#ADADAD;fill-opacity:0.7;}
+	.st39{fill:#AEAEAE;fill-opacity:0.7;}
+	.st40{fill:#AFAFAF;fill-opacity:0.7;}
+	.st41{fill:#B0B0B0;fill-opacity:0.7;}
+	.st42{fill:#B1B1B1;fill-opacity:0.7;}
+	.st43{fill:#B2B2B2;fill-opacity:0.7;}
+	.st44{fill:#B3B3B3;fill-opacity:0.7;}
+	.st45{fill:#B4B4B4;fill-opacity:0.7;}
+	.st46{stroke:#000000;stroke-miterlimit:8;}
+	.st47{enable-background:new    ;}
+	.st48{fill:#FFFFFF;}
+	.st49{font-family:'ArialMT';}
+	.st50{font-size:6px;}
+	.st51{fill:#555555;stroke:#6100A7;stroke-miterlimit:8;}
+	.st52{fill:#555555;stroke:#E97257;stroke-miterlimit:8;}
+	.st53{fill:#555555;stroke:#B42E8D;stroke-miterlimit:8;}
+	.st54{fill:#555555;stroke:#FDAF31;stroke-miterlimit:8;}
+	.st55{fill:#555555;stroke:#C43E7F;stroke-miterlimit:8;}
+	.st56{fill:#555555;stroke:#4903A0;stroke-miterlimit:8;}
+	.st57{fill:#555555;stroke:#F99A3E;stroke-miterlimit:8;}
+	.st58{fill:#555555;stroke:#F3854B;stroke-miterlimit:8;}
+	.st59{fill:#555555;stroke:#FDC627;stroke-miterlimit:8;}
+	.st60{fill:#555555;stroke:#F0F921;stroke-miterlimit:8;}
+	.st61{fill:#555555;stroke:#8E0CA4;stroke-miterlimit:8;}
+	.st62{fill:#555555;stroke:#F8DF25;stroke-miterlimit:8;}
+	.st63{fill:#555555;stroke:#DE6164;stroke-miterlimit:8;}
+	.st64{fill:#555555;stroke:#D24F71;stroke-miterlimit:8;}
+	.st65{fill:#555555;stroke:#7801A8;stroke-miterlimit:8;}
+	.st66{fill:#555555;stroke:#0D0887;stroke-miterlimit:8;}
+	.st67{fill:#555555;stroke:#2F0596;stroke-miterlimit:8;}
+	.st68{fill:#555555;stroke:#A21D9A;stroke-miterlimit:8;}
+	.st69{fill:#AAAAAA;stroke:#F0F921;stroke-miterlimit:8;}
+	.st70{fill:#AAAAAA;stroke:#FDAF31;stroke-miterlimit:8;}
+	.st71{fill:#AAAAAA;stroke:#F8DF25;stroke-miterlimit:8;}
+	.st72{fill:#AAAAAA;stroke:#D24F71;stroke-miterlimit:8;}
+	.st73{fill:#AAAAAA;stroke:#E97257;stroke-miterlimit:8;}
+	.st74{fill:#AAAAAA;stroke:#7801A8;stroke-miterlimit:8;}
+	.st75{fill:#AAAAAA;stroke:#FDC627;stroke-miterlimit:8;}
+	.st76{fill:#AAAAAA;stroke:#C43E7F;stroke-miterlimit:8;}
+	.st77{fill:#AAAAAA;stroke:#DE6164;stroke-miterlimit:8;}
+	.st78{fill:#AAAAAA;stroke:#4903A0;stroke-miterlimit:8;}
+	.st79{fill:#AAAAAA;stroke:#F99A3E;stroke-miterlimit:8;}
+	.st80{fill:#AAAAAA;stroke:#B42E8D;stroke-miterlimit:8;}
+	.st81{fill:#AAAAAA;stroke:#A21D9A;stroke-miterlimit:8;}
+	.st82{fill:#AAAAAA;stroke:#6100A7;stroke-miterlimit:8;}
+	.st83{fill:#AAAAAA;stroke:#F3854B;stroke-miterlimit:8;}
+	.st84{fill:#AAAAAA;stroke:#8E0CA4;stroke-miterlimit:8;}
+	.st85{fill:#AAAAAA;stroke:#2F0596;stroke-miterlimit:8;}
+	.st86{fill:#AAAAAA;stroke:#0D0887;stroke-miterlimit:8;}
+	.st87{font-family:'Arial-BoldMT';}
+	.st88{font-size:12px;}
+	.st89{font-family:'Helvetica';}
+	.st90{font-size:4.5px;}
+	.st91{fill:none;stroke:#000000;stroke-width:0.5669;stroke-miterlimit:10;}
+	.st92{fill:#FFFFFF;stroke:#000000;stroke-width:0.5669;stroke-miterlimit:10;}
+</style>
+<image style="overflow:visible;" width="563" height="620" xlink:href="figure4_baseheatmap.png"  transform="matrix(0.24 0 0 0.24 0.3037 139.1728)">
+</image>
+<image style="overflow:visible;" width="555" height="552" xlink:href="refined_category_counts_by_confidence.png"  transform="matrix(0.24 0 0 0.24 0 -6.982422e-02)">
+</image>
+<g>
+	<g>
+		<text transform="matrix(0.9036 0 0 1 -290.5077 35.6456)" class="st49" style="font-size:6.6402px;">Scale-up Ontology Flow (L1 → L2 → Leaf Index)</text>
+	</g>
+</g>
+<g>
+	<path class="st0" d="M189.7,141.7c11,0,11-34.7,21.9-34.7v18.4c-11,0-11,34.7-21.9,34.7V141.7z"/>
+	<path class="st1" d="M189.7,236.9c11,0,11-30.7,21.9-30.7v16.9c-11,0-11,30.7-21.9,30.7V236.9z"/>
+	<path class="st2" d="M189.7,178.9c11,0,11-12.5,21.9-12.5v10.9c-11,0-11,12.5-21.9,12.5V178.9z"/>
+	<path class="st3" d="M189.7,271.2c11,0,11,27.7,21.9,27.7v27.6c-11,0-11-27.7-21.9-27.7V271.2z"/>
+	<path class="st4" d="M189.7,200.9c11,0,11,51.7,21.9,51.7v17.8c-11,0-11-51.7-21.9-51.7V200.9z"/>
+	<path class="st5" d="M189.7,361.6c11,0,11,34.2,21.9,34.2v15.3c-11,0-11-34.2-21.9-34.2V361.6z"/>
+	<path class="st6" d="M189.7,189.8c11,0,11-6.9,21.9-6.9V194c-11,0-11,6.9-21.9,6.9V189.8z"/>
+	<path class="st7" d="M189.7,348.5c11,0,11-16.4,21.9-16.4v13c-11,0-11,16.4-21.9,16.4V348.5z"/>
+	<path class="st8" d="M189.7,253.7c11,0,11,22.2,21.9,22.2v17.5c-11,0-11-22.2-21.9-22.2V253.7z"/>
+	<path class="st9" d="M189.7,603.3c11,0,11-1.7,21.9-1.7v5c-11,0-11,1.7-21.9,1.7V603.3z"/>
+	<path class="st10" d="M189.7,160.1c11,0,11,68.4,21.9,68.4v6.7c-11,0-11-68.4-21.9-68.4V160.1z"/>
+	<path class="st11" d="M189.7,298.9c11,0,11,51.8,21.9,51.8v14.6c-11,0-11-51.8-21.9-51.8V298.9z"/>
+	<path class="st12" d="M189.7,313.4c11,0,11,57.3,21.9,57.3v6.3c-11,0-11-57.3-21.9-57.3V313.4z"/>
+	<path class="st13" d="M189.7,376.9c11,0,11,39.7,21.9,39.7v10.7c-11,0-11-39.7-21.9-39.7V376.9z"/>
+	<path class="st14" d="M189.7,166.8c11,0,11,74,21.9,74v6.2c-11,0-11-74-21.9-74V166.8z"/>
+	<path class="st15" d="M189.7,319.7c11,0,11,62.9,21.9,62.9v7.6c-11,0-11-62.9-21.9-62.9V319.7z"/>
+	<path class="st16" d="M189.7,608.2c11,0,11,5.4,21.9,5.4v4c-11,0-11-5.4-21.9-5.4V608.2z"/>
+	<path class="st17" d="M189.7,612.1c11,0,11,12,21.9,12v3.3c-11,0-11-12-21.9-12V612.1z"/>
+	<path class="st18" d="M278.8,107c11,0,11-106,21.9-106v14.4c-11,0-11,106-21.9,106V107z"/>
+	<path class="st19" d="M278.8,206.2c11,0,11-175.7,21.9-175.7v9.4c-11,0-11,175.7-21.9,175.7V206.2z"/>
+	<path class="st20" d="M278.8,166.5c11,0,11-97,21.9-97v7.4c-11,0-11,97-21.9,97V166.5z"/>
+	<path class="st21" d="M278.8,298.9c11,0,11-88.4,21.9-88.4v6.7c-11,0-11,88.4-21.9,88.4V298.9z"/>
+	<path class="st22" d="M278.8,252.6c11,0,11,29.9,21.9,29.9v5.9c-11,0-11-29.9-21.9-29.9V252.6z"/>
+	<path class="st22" d="M278.8,395.7c11,0,11-16.1,21.9-16.1v5.8c-11,0-11,16.1-21.9,16.1V395.7z"/>
+	<path class="st23" d="M278.8,182.9c11,0,11-80.3,21.9-80.3v5.6c-11,0-11,80.3-21.9,80.3V182.9z"/>
+	<path class="st24" d="M278.8,332.1c11,0,11-201.9,21.9-201.9v5.4c-11,0-11,201.9-21.9,201.9V332.1z"/>
+	<path class="st25" d="M278.8,275.9c11,0,11-110.5,21.9-110.5v4.8c-11,0-11,110.5-21.9,110.5V275.9z"/>
+	<path class="st26" d="M278.8,337.5c11,0,11-196.3,21.9-196.3v4.4c-11,0-11,196.3-21.9,196.3V337.5z"/>
+	<path class="st27" d="M278.8,280.7c11,0,11-105,21.9-105v4.2c-11,0-11,105-21.9,105V280.7z"/>
+	<path class="st9" d="M278.8,305.7c11,0,11-82.8,21.9-82.8v4.1c-11,0-11,82.8-21.9,82.8V305.7z"/>
+	<path class="st9" d="M278.8,309.8c11,0,11-77.3,21.9-77.3v4.1c-11,0-11,77.3-21.9,77.3V309.8z"/>
+	<path class="st9" d="M278.8,284.9c11,0,11-99.4,21.9-99.4v4.1c-11,0-11,99.4-21.9,99.4V284.9z"/>
+	<path class="st9" d="M278.8,121.4c11,0,11-100.4,21.9-100.4v4c-11,0-11,100.4-21.9,100.4V121.4z"/>
+	<path class="st9" d="M278.8,601.6c11,0,11-13.4,21.9-13.4v5c-11,0-11,13.4-21.9,13.4V601.6z"/>
+	<path class="st9" d="M278.8,228.6c11,0,11,104.9,21.9,104.9v4c-11,0-11-104.9-21.9-104.9V228.6z"/>
+	<path class="st28" d="M278.8,350.7c11,0,11,77.6,21.9,77.6v3.8c-11,0-11-77.6-21.9-77.6V350.7z"/>
+	<path class="st29" d="M278.8,188.4c11,0,11-74.8,21.9-74.8v3.7c-11,0-11,74.8-21.9,74.8V188.4z"/>
+	<path class="st29" d="M278.8,313.9c11,0,11-71.8,21.9-71.8v3.7c-11,0-11,71.8-21.9,71.8V313.9z"/>
+	<path class="st29" d="M278.8,354.5c11,0,11,83.1,21.9,83.1v3.6c-11,0-11-83.1-21.9-83.1V354.5z"/>
+	<path class="st30" d="M278.8,317.6c11,0,11-66.2,21.9-66.2v3.5c-11,0-11,66.2-21.9,66.2V317.6z"/>
+	<path class="st30" d="M278.8,370.8c11,0,11,105.2,21.9,105.2v3.5c-11,0-11-105.2-21.9-105.2V370.8z"/>
+	<path class="st30" d="M278.8,258.4c11,0,11,35.5,21.9,35.5v3.5c-11,0-11-35.5-21.9-35.5V258.4z"/>
+	<path class="st30" d="M278.8,401.5c11,0,11-10.5,21.9-10.5v3.5c-11,0-11,10.5-21.9,10.5V401.5z"/>
+	<path class="st31" d="M278.8,261.9c11,0,11,41,21.9,41v3.3c-11,0-11-41-21.9-41V261.9z"/>
+	<path class="st31" d="M278.8,215.5c11,0,11-170.2,21.9-170.2v3.3c-11,0-11,170.2-21.9,170.2V215.5z"/>
+	<path class="st32" d="M278.8,416.6c11,0,11,123.1,21.9,123.1v2.8c-11,0-11-123.1-21.9-123.1V416.6z"/>
+	<path class="st32" d="M278.8,341.9c11,0,11-190.8,21.9-190.8v2.8c-11,0-11,190.8-21.9,190.8V341.9z"/>
+	<path class="st17" d="M278.8,232.6c11,0,11,110.5,21.9,110.5v2.7c-11,0-11-110.5-21.9-110.5V232.6z"/>
+	<path class="st17" d="M278.8,265.3c11,0,11,46.5,21.9,46.5v2.7c-11,0-11-46.5-21.9-46.5V265.3z"/>
+	<path class="st33" d="M278.8,218.9c11,0,11-164.6,21.9-164.6v2.5c-11,0-11,164.6-21.9,164.6V218.9z"/>
+	<path class="st33" d="M278.8,240.8c11,0,11,110.5,21.9,110.5v2.5c-11,0-11-110.5-21.9-110.5V240.8z"/>
+	<path class="st33" d="M278.8,382.6c11,0,11,127.4,21.9,127.4v2.5c-11,0-11-127.4-21.9-127.4V382.6z"/>
+	<path class="st33" d="M278.8,173.8c11,0,11-91.4,21.9-91.4v2.4c-11,0-11,91.4-21.9,91.4V173.8z"/>
+	<path class="st34" d="M278.8,405c11,0,11-5,21.9-5v2.3c-11,0-11,5-21.9,5V405z"/>
+	<path class="st34" d="M278.8,289c11,0,11-93.9,21.9-93.9v2.3c-11,0-11,93.9-21.9,93.9V289z"/>
+	<path class="st34" d="M278.8,358.1c11,0,11,88.6,21.9,88.6v2.3c-11,0-11-88.6-21.9-88.6V358.1z"/>
+	<path class="st35" d="M278.8,291.2c11,0,11-88.4,21.9-88.4v2.2c-11,0-11,88.4-21.9,88.4V291.2z"/>
+	<path class="st35" d="M278.8,360.3c11,0,11,94.2,21.9,94.2v2.2c-11,0-11-94.2-21.9-94.2V360.3z"/>
+	<path class="st35" d="M278.8,268c11,0,11,52.1,21.9,52.1v2.2c-11,0-11-52.1-21.9-52.1V268z"/>
+	<path class="st35" d="M278.8,321.1c11,0,11-60.7,21.9-60.7v2.1c-11,0-11,60.7-21.9,60.7V321.1z"/>
+	<path class="st35" d="M278.8,407.2c11,0,11,0.6,21.9,0.6v2c-11,0-11-0.6-21.9-0.6V407.2z"/>
+	<path class="st36" d="M278.8,385.1c11,0,11,132.9,21.9,132.9v2c-11,0-11-132.9-21.9-132.9V385.1z"/>
+	<path class="st36" d="M278.8,192.1c11,0,11-69.3,21.9-69.3v1.9c-11,0-11,69.3-21.9,69.3V192.1z"/>
+	<path class="st36" d="M278.8,613.4c11,0,11-13.4,21.9-13.4v2.3c-11,0-11,13.4-21.9,13.4V613.4z"/>
+	<path class="st36" d="M278.8,323.2c11,0,11-55.1,21.9-55.1v1.8c-11,0-11,55.1-21.9,55.1V323.2z"/>
+	<path class="st37" d="M278.8,419.4c11,0,11,128.7,21.9,128.7v1.7c-11,0-11-128.7-21.9-128.7V419.4z"/>
+	<path class="st37" d="M278.8,221.4c11,0,11-159.1,21.9-159.1V64c-11,0-11,159.1-21.9,159.1V221.4z"/>
+	<path class="st37" d="M278.8,387c11,0,11,138.5,21.9,138.5v1.6c-11,0-11-138.5-21.9-138.5V387z"/>
+	<path class="st38" d="M278.8,325c11,0,11-49.6,21.9-49.6v1.5c-11,0-11,49.6-21.9,49.6V325z"/>
+	<path class="st38" d="M278.8,388.6c11,0,11,144,21.9,144v1.5c-11,0-11-144-21.9-144V388.6z"/>
+	<path class="st38" d="M278.8,421.1c11,0,11,134.2,21.9,134.2v1.5c-11,0-11-134.2-21.9-134.2V421.1z"/>
+	<path class="st38" d="M278.8,362.5c11,0,11,99.7,21.9,99.7v1.5c-11,0-11-99.7-21.9-99.7V362.5z"/>
+	<path class="st38" d="M278.8,422.7c11,0,11,139.7,21.9,139.7v1.5c-11,0-11-139.7-21.9-139.7V422.7z"/>
+	<path class="st38" d="M278.8,243.3c11,0,11,116,21.9,116v1.5c-11,0-11-116-21.9-116V243.3z"/>
+	<path class="st39" d="M278.8,374.3c11,0,11,110.8,21.9,110.8v1.3c-11,0-11-110.8-21.9-110.8V374.3z"/>
+	<path class="st39" d="M278.8,624.1c11,0,11,0.3,21.9,0.3v1.7c-11,0-11-0.3-21.9-0.3V624.1z"/>
+	<path class="st39" d="M278.8,424.2c11,0,11,145.3,21.9,145.3v1.2c-11,0-11-145.3-21.9-145.3V424.2z"/>
+	<path class="st39" d="M278.8,364c11,0,11,105.2,21.9,105.2v1.2c-11,0-11-105.2-21.9-105.2V364z"/>
+	<path class="st40" d="M278.8,409.3c11,0,11,6.1,21.9,6.1v1.2c-11,0-11-6.1-21.9-6.1V409.3z"/>
+	<path class="st40" d="M278.8,244.8c11,0,11,121.5,21.9,121.5v1.1c-11,0-11-121.5-21.9-121.5V244.8z"/>
+	<path class="st40" d="M278.8,245.9c11,0,11,127.1,21.9,127.1v1.1c-11,0-11-127.1-21.9-127.1V245.9z"/>
+	<path class="st40" d="M278.8,425.4c11,0,11,150.8,21.9,150.8v1.1c-11,0-11-150.8-21.9-150.8V425.4z"/>
+	<path class="st41" d="M278.8,426.5c11,0,11,156.4,21.9,156.4v0.8c-11,0-11-156.4-21.9-156.4V426.5z"/>
+	<path class="st42" d="M278.8,625.8c11,0,11,7.2,21.9,7.2v1c-11,0-11-7.2-21.9-7.2V625.8z"/>
+	<path class="st42" d="M278.8,176.2c11,0,11-85.9,21.9-85.9v0.7c-11,0-11,85.9-21.9,85.9V176.2z"/>
+	<path class="st42" d="M278.8,375.6c11,0,11,116.3,21.9,116.3v0.7c-11,0-11-116.3-21.9-116.3V375.6z"/>
+	<path class="st42" d="M278.8,615.7c11,0,11-6.5,21.9-6.5v0.8c-11,0-11,6.5-21.9,6.5V615.7z"/>
+	<path class="st42" d="M278.8,376.3c11,0,11,121.9,21.9,121.9v0.7c-11,0-11-121.9-21.9-121.9V376.3z"/>
+	<path class="st42" d="M278.8,616.5c11,0,11,0.3,21.9,0.3v0.8c-11,0-11-0.3-21.9-0.3V616.5z"/>
+	<path class="st42" d="M278.8,410.4c11,0,11,11.6,21.9,11.6v0.6c-11,0-11-11.6-21.9-11.6V410.4z"/>
+	<path class="st43" d="M278.8,626.8c11,0,11,14,21.9,14v0.7c-11,0-11-14-21.9-14V626.8z"/>
+	<path class="st44" d="M278.8,177c11,0,11-80.3,21.9-80.3V97c-11,0-11,80.3-21.9,80.3V177z"/>
+	<path class="st44" d="M278.8,344.8c11,0,11-185.3,21.9-185.3v0.4c-11,0-11,185.3-21.9,185.3V344.8z"/>
+	<path class="st44" d="M278.8,270.1c11,0,11,57.6,21.9,57.6v0.3c-11,0-11-57.6-21.9-57.6V270.1z"/>
+	<path class="st45" d="M278.8,376.9c11,0,11,127.4,21.9,127.4v0.2c-11,0-11-127.4-21.9-127.4V376.9z"/>
+	<rect x="155.6" y="236.9" class="st46" width="34" height="90.4"/>
+	<rect x="155.6" y="178.9" class="st46" width="34" height="39.8"/>
+	<rect x="155.6" y="603.3" class="st46" width="34" height="12.2"/>
+	<rect x="155.6" y="348.5" class="st46" width="34" height="39"/>
+	<rect x="155.6" y="141.7" class="st46" width="34" height="31.3"/>
+	<text transform="matrix(1 0 0 1 160.8118 276.4841)" class="st47"><tspan x="0" y="0" class="st48 st49 st50">chemical</tspan><tspan x="-1.7" y="7.2" class="st48 st49 st50">conditions</tspan><tspan x="2.3" y="14.4" class="st48 st49 st50">(1,758)</tspan></text>
+	<text transform="matrix(1 0 0 1 160.3929 193.2156)" class="st47"><tspan x="0" y="0" class="st48 st49 st50">workup +</tspan><tspan x="-2.3" y="7.2" class="st48 st49 st50">purification</tspan><tspan x="5.3" y="14.4" class="st48 st49 st50">(773)</tspan></text>
+	<text transform="matrix(1 0 0 1 157.8074 607.3518)" class="st47"><tspan x="0" y="0" class="st48 st49 st50">specialized</tspan><tspan x="7.8" y="7.2" class="st48 st49 st50">(191)</tspan></text>
+	<text transform="matrix(1 0 0 1 162.1448 362.4662)" class="st47"><tspan x="0" y="0" class="st48 st49 st50">process</tspan><tspan x="-5.2" y="7.2" class="st48 st49 st50">engineering</tspan><tspan x="3.5" y="14.4" class="st48 st49 st50">(759)</tspan></text>
+	<text transform="matrix(1 0 0 1 159.3924 151.7943)" class="st47"><tspan x="0" y="0" class="st48 st49 st50">strategy +</tspan><tspan x="-2.8" y="7.2" class="st48 st49 st50">optimization</tspan><tspan x="6.3" y="14.4" class="st48 st49 st50">(609)</tspan></text>
+	<g>
+		<rect x="211.9" y="416.6" class="st51" width="66.4" height="10.7"/>
+		<rect x="211.9" y="253.2" class="st52" width="66.4" height="18"/>
+		<rect x="211.9" y="350.7" class="st53" width="66.4" height="14.6"/>
+		<rect x="211.9" y="206.2" class="st54" width="66.4" height="16.9"/>
+		<rect x="211.9" y="332.1" class="st55" width="66.4" height="13"/>
+		<rect x="211.9" y="601.1" class="st56" width="66.2" height="6"/>
+		<rect x="211.9" y="228.6" class="st57" width="66.4" height="6.7"/>
+		<rect x="211.9" y="240.8" class="st58" width="66.4" height="6.2"/>
+		<rect x="211.9" y="182.9" class="st59" width="66.4" height="11.1"/>
+		<rect x="211.9" y="107" class="st60" width="66.4" height="18.4"/>
+		<rect x="211.9" y="382.6" class="st61" width="66.4" height="7.6"/>
+		<rect x="211.9" y="166.5" class="st62" width="66.4" height="10.9"/>
+		<rect x="211.9" y="275.9" class="st63" width="66.4" height="17.5"/>
+		<rect x="211.9" y="298.9" class="st64" width="66.4" height="27.6"/>
+		<rect x="211.9" y="395.7" class="st65" width="66.4" height="15.3"/>
+		<rect x="211.9" y="622.9" class="st66" width="66.4" height="6"/>
+		<rect x="211.9" y="612.6" class="st67" width="66.4" height="6"/>
+		<rect x="211.9" y="370.8" class="st68" width="66.4" height="6.3"/>
+	</g>
+	<text transform="matrix(1 0 0 1 214.5691 423.5444)" class="st48 st49 st50">reactor/hardware (208)</text>
+	<text transform="matrix(1 0 0 1 213.7355 263.8339)" class="st48 st49 st50">extraction/workup (346)</text>
+	<text transform="matrix(1 0 0 1 218.7337 359.5439)" class="st48 st49 st50">solvent/phase (283)</text>
+	<text transform="matrix(1 0 0 1 219.7356 216.2204)" class="st48 st49 st50">acid/base/pH (328)</text>
+	<text transform="matrix(1 0 0 1 220.9059 340.2186)" class="st48 st49 st50">atmo./safety (253)</text>
+	<text transform="matrix(1 0 0 1 223.4079 605.9642)" class="st48 st49 st50">biocatalysis (78)</text>
+	<text transform="matrix(1 0 0 1 227.0746 233.5367)" class="st48 st49 st50">fallback (130)</text>
+	<text transform="matrix(1 0 0 1 213.7341 245.5316)" class="st48 st49 st50">screens/modeling (121)</text>
+	<text transform="matrix(1 0 0 1 219.2405 190.0198)" class="st48 st49 st50">crystallization (216)</text>
+	<text transform="matrix(1 0 0 1 220.7348 117.7893)" class="st48 st49 st50">route design (358)</text>
+	<text transform="matrix(1 0 0 1 225.4058 388.0051)" class="st48 st49 st50">additives (147)</text>
+	<text transform="matrix(1 0 0 1 221.6342 173.503)" class="st48 st49 st50">impurity/QC (211)</text>
+	<text transform="matrix(1 0 0 1 217.7389 286.2623)" class="st48 st49 st50">stoich./kinetics (340)</text>
+	<text transform="matrix(1 0 0 1 213.0677 314.3565)" class="st48 st49 st50">reagents/catalysts (537)</text>
+	<text transform="matrix(1 0 0 1 215.2413 404.9902)" class="st48 st49 st50">flow/slurry/solids (298)</text>
+	<text transform="matrix(1 0 0 1 221.7322 627.8704)" class="st48 st49 st50">halogenation (52)</text>
+	<text transform="matrix(1 0 0 1 213.8995 617.3016)" class="st48 st49 st50">reduction/acylation (61)</text>
+	<text transform="matrix(1 0 0 1 214.0682 375.5273)" class="st48 st49 st50">protect./substrate (123)</text>
+	<rect x="300.7" y="1" class="st69" width="8.5" height="14.4"/>
+	<rect x="300.7" y="30.5" class="st70" width="8.5" height="9.4"/>
+	<rect x="300.7" y="69.5" class="st71" width="8.5" height="7.4"/>
+	<rect x="300.7" y="210.6" class="st72" width="8.5" height="6.7"/>
+	<rect x="300.7" y="282.5" class="st73" width="8.5" height="5.9"/>
+	<rect x="300.7" y="379.7" class="st74" width="8.5" height="5.8"/>
+	<rect x="300.7" y="102.5" class="st75" width="8.5" height="5.6"/>
+	<rect x="300.7" y="130.2" class="st76" width="8.5" height="5.4"/>
+	<rect x="300.7" y="165.4" class="st77" width="8.5" height="4.8"/>
+	<rect x="300.7" y="141.2" class="st76" width="8.5" height="4.4"/>
+	<rect x="300.7" y="175.7" class="st77" width="8.5" height="4.2"/>
+	<rect x="300.7" y="222.9" class="st72" width="8.5" height="4.1"/>
+	<rect x="300.7" y="232.5" class="st72" width="8.5" height="4.1"/>
+	<rect x="300.7" y="185.4" class="st77" width="8.5" height="4.1"/>
+	<rect x="300.7" y="20.9" class="st69" width="8.5" height="4"/>
+	<rect x="300.7" y="588.2" class="st78" width="8.5" height="5"/>
+	<rect x="300.7" y="333.5" class="st79" width="8.5" height="4"/>
+	<rect x="300.7" y="428.2" class="st80" width="8.5" height="3.8"/>
+	<rect x="300.7" y="113.6" class="st75" width="8.5" height="3.7"/>
+	<rect x="300.7" y="242.2" class="st72" width="8.5" height="3.7"/>
+	<rect x="300.7" y="437.6" class="st80" width="8.5" height="3.6"/>
+	<rect x="300.7" y="251.4" class="st72" width="8.5" height="3.5"/>
+	<rect x="300.7" y="476" class="st81" width="8.5" height="3.5"/>
+	<rect x="300.7" y="293.9" class="st73" width="8.5" height="3.5"/>
+	<rect x="300.7" y="391" class="st74" width="8.5" height="3.5"/>
+	<rect x="300.7" y="302.9" class="st73" width="8.5" height="3.3"/>
+	<rect x="300.7" y="45.4" class="st70" width="8.5" height="3.3"/>
+	<rect x="300.7" y="539.7" class="st82" width="8.5" height="2.8"/>
+	<rect x="300.7" y="151.1" class="st76" width="8.5" height="2.8"/>
+	<rect x="300.7" y="343" class="st79" width="8.5" height="2.7"/>
+	<rect x="300.7" y="311.8" class="st73" width="8.5" height="2.7"/>
+	<rect x="300.7" y="54.3" class="st70" width="8.5" height="2.5"/>
+	<rect x="300.7" y="351.3" class="st83" width="8.5" height="2.5"/>
+	<rect x="300.7" y="510" class="st84" width="8.5" height="2.5"/>
+	<rect x="300.7" y="82.4" class="st71" width="8.5" height="2.4"/>
+	<rect x="300.7" y="400" class="st74" width="8.5" height="2.3"/>
+	<rect x="300.7" y="195.1" class="st77" width="8.5" height="2.3"/>
+	<rect x="300.7" y="446.7" class="st80" width="8.5" height="2.3"/>
+	<rect x="300.7" y="202.9" class="st77" width="8.5" height="2.2"/>
+	<rect x="300.7" y="454.5" class="st80" width="8.5" height="2.2"/>
+	<rect x="300.7" y="320" class="st73" width="8.5" height="2.2"/>
+	<rect x="300.7" y="260.4" class="st72" width="8.5" height="2.1"/>
+	<rect x="300.7" y="407.8" class="st74" width="8.5" height="2"/>
+	<rect x="300.7" y="518" class="st84" width="8.5" height="2"/>
+	<rect x="300.7" y="122.8" class="st75" width="8.5" height="1.9"/>
+	<rect x="300.7" y="600" class="st85" width="8.5" height="2.3"/>
+	<rect x="300.7" y="268.1" class="st72" width="8.5" height="1.8"/>
+	<rect x="300.7" y="548.1" class="st82" width="8.5" height="1.7"/>
+	<rect x="300.7" y="62.3" class="st70" width="8.5" height="1.6"/>
+	<rect x="300.7" y="525.5" class="st84" width="8.5" height="1.6"/>
+	<rect x="300.7" y="275.4" class="st72" width="8.5" height="1.5"/>
+	<rect x="300.7" y="532.6" class="st84" width="8.5" height="1.5"/>
+	<rect x="300.7" y="555.3" class="st82" width="8.5" height="1.5"/>
+	<rect x="300.7" y="462.2" class="st80" width="8.5" height="1.5"/>
+	<rect x="300.7" y="562.4" class="st82" width="8.5" height="1.5"/>
+	<rect x="300.7" y="359.3" class="st83" width="8.5" height="1.5"/>
+	<rect x="300.7" y="485" class="st81" width="8.5" height="1.3"/>
+	<rect x="300.7" y="624.5" class="st86" width="8.5" height="1.7"/>
+	<rect x="300.7" y="569.4" class="st82" width="8.5" height="1.2"/>
+	<rect x="300.7" y="469.2" class="st80" width="8.5" height="1.2"/>
+	<rect x="300.7" y="415.3" class="st74" width="8.5" height="1.2"/>
+	<rect x="300.7" y="366.3" class="st83" width="8.5" height="1.2"/>
+	<rect x="300.7" y="373" class="st83" width="8.5" height="1.2"/>
+	<rect x="300.7" y="576.2" class="st82" width="8.5" height="1.2"/>
+	<rect x="300.7" y="582.8" class="st82" width="8.5" height="1.2"/>
+	<rect x="300.7" y="633" class="st86" width="8.5" height="1.4"/>
+	<rect x="300.7" y="90.4" class="st71" width="8.5" height="1.2"/>
+	<rect x="300.7" y="491.9" class="st81" width="8.5" height="1.2"/>
+	<rect x="300.7" y="609.2" class="st85" width="8.5" height="1.4"/>
+	<rect x="300.7" y="498.1" class="st81" width="8.5" height="1.2"/>
+	<rect x="300.7" y="616.8" class="st85" width="8.5" height="1.4"/>
+	<rect x="300.7" y="422.1" class="st74" width="8.5" height="1.2"/>
+	<rect x="300.7" y="640.8" class="st86" width="8.5" height="1.4"/>
+	<rect x="300.7" y="96.6" class="st71" width="8.5" height="1.2"/>
+	<rect x="300.7" y="159.5" class="st76" width="8.5" height="1.2"/>
+	<rect x="300.7" y="327.7" class="st73" width="8.5" height="1.2"/>
+	<rect x="300.7" y="504.3" class="st81" width="8.5" height="1.2"/>
+	<text transform="matrix(1 0 0 1 312.1695 9.8025)" class="st49 st50">1. entirely new route or step replacement (280)</text>
+	<text transform="matrix(1 0 0 1 312.1695 74.7934)" class="st49 st50">3. improved in process control or analytical method (143)</text>
+	<text transform="matrix(1 0 0 1 312.1695 215.5549)" class="st49 st50">4. change of primary reagent (131)</text>
+	<text transform="matrix(1 0 0 1 312.1695 287.0412)" class="st49 st50">5. improved impurity purge or byproduct control (114)</text>
+	<text transform="matrix(1 0 0 1 312.1695 384.1487)" class="st49 st50">6. batch to flow or flow process implementation (112)</text>
+	<text transform="matrix(1 0 0 1 312.1695 106.8975)" class="st49 st50">7. crystallization solvent or antisolvent optimization (108)</text>
+	<text transform="matrix(1 0 0 1 312.1695 134.5433)" class="st49 st50">8. condition change to reduce or remove process hazard (105)</text>
+	<text transform="matrix(1 0 0 1 312.1695 169.3995)" class="st49 st50">9. optimization of reagent stoichiometry (93)</text>
+	<text transform="matrix(1 0 0 1 312.1695 144.9941)" class="st49 st50">10. thermal runaway mitigation or quench safety modification (86)</text>
+	<text transform="matrix(1 0 0 1 312.1695 179.4125)" class="st49 st50">11. change of addition order or feed profile (81)</text>
+	<text transform="matrix(1 0 0 1 312.1695 226.5191)" class="st49 st50">12. change of oxidant or oxidation protocol (80)</text>
+	<text transform="matrix(1 0 0 1 312.1695 236.1704)" class="st49 st50">13. change of catalyst or ligand identity (80)</text>
+	<text transform="matrix(1 0 0 1 312.1695 189.0918)" class="st49 st50">14. temperature setpoint or temperature ramp optimization (80)</text>
+	<text transform="matrix(1 0 0 1 312.1695 24.5489)" class="st49 st50">15. step reordering or telescope strategy (78)</text>
+	<text transform="matrix(1 0 0 1 312.1695 592.2737)" class="st49 st50">16. biocatalytic or enzymatic route change or optimization (78)</text>
+	<text transform="matrix(1 0 0 1 312.1695 431.7245)" class="st49 st50">18. solvent change for safety or green chemistry (74)</text>
+	<text transform="matrix(1 0 0 1 312.1695 117.0392)" class="st49 st50">19. polymorph or solid form management (71)</text>
+	<text transform="matrix(1 0 0 1 312.1695 245.5919)" class="st49 st50">20. reagent change to reduce waste or increase green score (71)</text>
+	<text transform="matrix(1 0 0 1 312.1695 440.9645)" class="st49 st50">21. solvent system optimization or cosolvent addition (70)</text>
+	<text transform="matrix(1 0 0 1 312.1695 254.7308)" class="st49 st50">22. change of reductant or reduction protocol (69)</text>
+	<text transform="matrix(1 0 0 1 312.1695 479.3507)" class="st49 st50">23. protecting group change or removal (68)</text>
+	<text transform="matrix(1 0 0 1 312.1695 297.26)" class="st49 st50">24. improved extraction or phase separation (68)</text>
+	<text transform="matrix(1 0 0 1 312.1695 394.316)" class="st49 st50">25. clogging or fouling mitigation (68)</text>
+	<text transform="matrix(1 0 0 1 312.1695 306.2165)" class="st49 st50">26. drying or isolation process optimization (65)</text>
+	<text transform="matrix(1 0 0 1 312.1695 542.7432)" class="st49 st50">28. improved mixing or impeller design (55)</text>
+	<text transform="matrix(1 0 0 1 312.1695 154.1582)" class="st49 st50">29. optimization of inert atmosphere or deoxygenation (55)</text>
+	<text transform="matrix(1 0 0 1 312.1695 337.112)" class="st49 st50">30. insufficient information to classify (53)</text>
+	<text transform="matrix(1 0 0 1 312.1695 314.7636)" class="st49 st50">31. improved quench or neutralization (52)</text>
+	<text transform="matrix(1 0 0 1 312.1695 57.1346)" class="st49 st50">32. optimization of acid or base stoichiometry (49)</text>
+	<text transform="matrix(1 0 0 1 312.1695 354.1264)" class="st49 st50">33. design of experiments or multivariate optimization (48)</text>
+	<text transform="matrix(1 0 0 1 312.1695 512.8506)" class="st49 st50">34. quench or scavenger addition optimization (48)</text>
+	<text transform="matrix(1 0 0 1 312.1695 85.2176)" class="st49 st50">35. feedstock or supplier variability management (47)</text>
+	<text transform="matrix(1 0 0 1 312.1695 402.7319)" class="st49 st50">36. gas evolution or mass transfer management (44)</text>
+	<text transform="matrix(1 0 0 1 312.1695 197.8163)" class="st49 st50">37. hold time or residence time optimization (44)</text>
+	<text transform="matrix(1 0 0 1 312.1695 449.4346)" class="st49 st50">38. solvent change to reduce side products (44)</text>
+	<text transform="matrix(1 0 0 1 312.1695 205.5668)" class="st49 st50">39. pressure or gas headspace optimization (42)</text>
+	<text transform="matrix(1 0 0 1 312.1695 457.1843)" class="st49 st50">40. solvent change for solubility (42)</text>
+	<text transform="matrix(1 0 0 1 312.1695 322.7194)" class="st49 st50">41. filtration or solid liquid separation improvement (42)</text>
+	<text transform="matrix(1 0 0 1 312.1695 263.098)" class="st49 st50">42. replacement of costly or low purity reagent (41)</text>
+	<text transform="matrix(1 0 0 1 312.1695 410.4049)" class="st49 st50">43. slurry handling or particle size optimization (39)</text>
+	<text transform="matrix(1 0 0 1 312.1695 520.6002)" class="st49 st50">44. introduction of additive to enable reaction (38)</text>
+	<text transform="matrix(1 0 0 1 312.1695 125.3529)" class="st49 st50">45. crystallization nucleation or seed control (37)</text>
+	<text transform="matrix(1 0 0 1 312.1695 602.7576)" class="st49 st50">46. optimization of peptide coupling or amidation (36)</text>
+	<text transform="matrix(1 0 0 1 312.1695 270.5888)" class="st49 st50">47. optimization of catalyst loading (35)</text>
+	<text transform="matrix(1 0 0 1 312.1695 550.5424)" class="st49 st50">48. improved photochemical reactor or light delivery (33)</text>
+	<text transform="matrix(1 0 0 1 312.1695 64.7538)" class="st49 st50">49. optimization of pH or buffer conditions (32)</text>
+	<text transform="matrix(1 0 0 1 312.1695 527.9108)" class="st49 st50">50. removal or simplification of additives (31)</text>
+	<text transform="matrix(1 0 0 1 312.1695 277.799)" class="st49 st50">51. replacement of unstable or impure reagent (30)</text>
+	<text transform="matrix(1 0 0 1 312.1695 535.0181)" class="st49 st50">52. introduction of additive to improve selectivity (30)</text>
+	<text transform="matrix(1 0 0 1 312.1695 557.7006)" class="st49 st50">53. improved electrochemical reactor or electrode system (30)</text>
+	<text transform="matrix(1 0 0 1 312.1695 464.5468)" class="st49 st50">54. solvent change for reactivity (29)</text>
+	<text transform="matrix(1 0 0 1 312.1695 564.7545)" class="st49 st50">55. custom or novel reactor design to reduce cost or risk (29)</text>
+	<text transform="matrix(1 0 0 1 312.1695 361.6464)" class="st49 st50">56. process modeling or digital twin guided change (29)</text>
+	<text transform="matrix(1 0 0 1 312.1695 487.3059)" class="st49 st50">57. route change to rescue selectivity or stability (26)</text>
+	<text transform="matrix(1 0 0 1 312.1695 626.8932)" class="st49 st50">58. optimization of chlorination or activation protocol (26)</text>
+	<text transform="matrix(1 0 0 1 312.1695 571.6555)" class="st49 st50">59. reactor geometry or hold up optimization (24)</text>
+	<text transform="matrix(1 0 0 1 312.1695 471.4483)" class="st49 st50">60. phase behavior or biphasic system optimization (24)</text>
+	<text transform="matrix(1 0 0 1 312.1695 417.5378)" class="st49 st50">61. packed bed or fixed bed optimization (23)</text>
+	<text transform="matrix(1 0 0 1 312.1695 368.5146)" class="st49 st50">62. kinetic or mechanistic modeling guided change (22)</text>
+	<text transform="matrix(1 0 0 1 312.1695 375.1821)" class="st49 st50">63. reaction condition screening or HTE (22)</text>
+	<text transform="matrix(1 0 0 1 312.1695 578.3961)" class="st49 st50">64. reactor scale change without changing chemistry (21)</text>
+	<text transform="matrix(1 0 0 1 312.1695 585.0119)" class="st49 st50">65. improved heat transfer or temperature control hardware (16)</text>
+	<text transform="matrix(1 0 0 1 312.1695 635.2992)" class="st49 st50">66. optimization of halogenation protocol (15)</text>
+	<text transform="matrix(1 0 0 1 312.1695 92.549)" class="st49 st50">67. adjustment of release criteria or quality specifications (14)</text>
+	<text transform="matrix(1 0 0 1 312.1695 494.0974)" class="st49 st50">68. functional group change to avoid instability (13)</text>
+	<text transform="matrix(1 0 0 1 312.1695 611.4852)" class="st49 st50">69. optimization of reductive or hydrogenolysis protocol (13)</text>
+	<text transform="matrix(1 0 0 1 312.1695 500.3027)" class="st49 st50">70. substrate change to improve purification (13)</text>
+	<text transform="matrix(1 0 0 1 312.1695 619.1672)" class="st49 st50">71. optimization of formylation or acylation protocol (12)</text>
+	<text transform="matrix(1 0 0 1 312.1695 424.2498)" class="st49 st50">72. continuous process intensification (12)</text>
+	<text transform="matrix(1 0 0 1 312.1695 643.1124)" class="st49 st50">73. optimization of fluorination protocol (11)</text>
+	<text transform="matrix(1 0 0 1 312.1695 98.8053)" class="st49 st50">74. tolerance of reagent or feed impurities (7)</text>
+	<text transform="matrix(1 0 0 1 312.1695 161.6932)" class="st49 st50">75. optimization of oxygen or gas enriched environment (7)</text>
+	<text transform="matrix(1 0 0 1 312.1695 329.9203)" class="st49 st50">76. centrifugation or clarification optimization (5)</text>
+	<text transform="matrix(1 0 0 1 312.1695 506.5099)" class="st49 st50">77. substrate scaffold change (3)</text>
+	<text transform="matrix(1 0 0 1 312.1696 36.7747)" class="st49 st50">2. change of base (182)</text>
+	<text transform="matrix(1 0 0 1 312.1696 48.6647)" class="st49 st50">27. change of acid (65)</text>
+	<text transform="matrix(1 0 0 1 312.1728 345.9937)" class="st49 st50">17. other (77)</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 -117.2622 386.9485)" class="st89 st50">O</text>
+	<text transform="matrix(1 0 0 1 -107.9101 403.1468)" class="st89 st50">OH</text>
+	<text transform="matrix(1 0 0 1 -135.7993 419.2864)" class="st89 st50">N</text>
+	<rect x="-114.3" y="388.3" width="0.6" height="7.8"/>
+	<rect x="-116.2" y="388.3" width="0.6" height="7.8"/>
+	<polygon points="-108.4,399 -108.7,399.5 -114.9,395.9 -114.9,395.2 	"/>
+	<polygon points="-124,401.1 -124.3,401 -124.3,400.6 -114.9,395.2 -114.9,395.9 	"/>
+	<polygon points="-133.6,395.9 -133.6,395.2 -124.3,400.6 -124.3,401 -124.6,401.1 	"/>
+	<polygon points="-142.7,401.1 -143.3,400.8 -133.6,395.2 -133.6,395.9 	"/>
+	<rect x="-141.6" y="399.6" transform="matrix(0.866 -0.5 0.5 0.866 -218.3719 -15.086)" width="8.6" height="0.6"/>
+	<polygon points="-142.7,411.6 -143.3,411.9 -143.3,400.8 -142.7,401.1 	"/>
+	<polygon points="-136.8,415 -137.1,415.5 -143.3,411.9 -142.7,411.6 	"/>
+	<rect x="-138.8" y="409.2" transform="matrix(0.5 -0.866 0.866 0.5 -426.1458 86.1067)" width="0.6" height="5.9"/>
+	<polygon points="-124.6,411.6 -124,411.9 -130.2,415.5 -130.5,415 	"/>
+	<polygon points="-124,411.9 -124.6,411.6 -124.6,401.1 -124.3,401 -124,401.1 	"/>
+	<rect x="-126.5" y="402.1" width="0.6" height="8.6"/>
+</g>
+<g>
+	<g>
+		<text transform="matrix(1 0 0 1 -118.7854 343.244)" class="st89 st50">Me</text>
+		<text transform="matrix(1 0 0 1 -137.0724 343.244)" class="st89 st50">N</text>
+		<text transform="matrix(1 0 0 1 -160.192 343.244)" class="st89 st50">Me</text>
+		<text transform="matrix(1 0 0 1 -128.0952 327.119)" class="st89 st50">Me</text>
+		<polygon points="-125.6,346.8 -125.6,346.1 -119.9,342.9 -119.6,343.4 		"/>
+		<polygon points="-131.8,343.2 -131.5,342.7 -125.6,346.1 -125.6,346.8 		"/>
+		<polygon points="-144.2,346.8 -144.2,346.1 -138.3,342.7 -138,343.3 		"/>
+		<polygon points="-151.1,342.9 -150.8,342.4 -144.2,346.1 -144.2,346.8 		"/>
+		<polygon points="-135.2,330.2 -134.6,330.5 -134.6,337.7 -135.2,337.7 		"/>
+		<polygon points="-129.3,326.8 -129,327.3 -134.6,330.5 -135.2,330.2 		"/>
+	</g>
+	<text transform="matrix(1 0 0 1 -138.658 361.0718)"><tspan x="0" y="0" class="st87 st50">12</tspan><tspan x="-8" y="7.2" class="st49 st50">7 counts</tspan></text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 -85.7778 361.0719)"><tspan x="0" y="0" class="st87 st50">13</tspan><tspan x="-8" y="7.2" class="st49 st50">6 counts</tspan></text>
+	<g>
+		<text transform="matrix(1 0 0 1 -93.0247 331.129)" class="st89 st50">N</text>
+		<polygon points="-81.5,345.5 -81.5,344.9 -72.5,339.6 -71.9,340 		"/>
+		<rect x="-82.1" y="340.5" transform="matrix(0.866 -0.5 0.5 0.866 -180.8321 6.7597)" width="8.6" height="0.6"/>
+		<polygon points="-91.2,340 -90.6,339.6 -81.5,344.9 -81.5,345.5 		"/>
+		<polygon points="-91.2,332.3 -90.6,332.3 -90.6,339.6 -91.2,340 		"/>
+		<rect x="-89.2" y="332.3" width="0.6" height="6.3"/>
+		<polygon points="-81.5,323.3 -81.5,323.9 -87.5,327.4 -87.8,326.9 		"/>
+		<polygon points="-71.9,328.8 -72.5,329.2 -81.5,323.9 -81.5,323.3 		"/>
+		<rect x="-78.1" y="323.7" transform="matrix(0.5 -0.866 0.866 0.5 -322.9458 96.6147)" width="0.6" height="8.6"/>
+		<polygon points="-72.5,329.2 -71.9,328.8 -71.9,340 -72.5,339.6 		"/>
+		<text transform="matrix(1 0 0 1 -93.0247 331.129)" class="st89 st50">N</text>
+		<polygon points="-81.5,345.5 -81.5,344.9 -72.5,339.6 -71.9,340 		"/>
+		<rect x="-82.1" y="340.5" transform="matrix(0.866 -0.5 0.5 0.866 -180.8321 6.7597)" width="8.6" height="0.6"/>
+		<polygon points="-91.2,340 -90.6,339.6 -81.5,344.9 -81.5,345.5 		"/>
+		<polygon points="-91.2,332.3 -90.6,332.3 -90.6,339.6 -91.2,340 		"/>
+		<rect x="-89.2" y="332.3" width="0.6" height="6.3"/>
+		<polygon points="-81.5,323.3 -81.5,323.9 -87.5,327.4 -87.8,326.9 		"/>
+		<polygon points="-71.9,328.8 -72.5,329.2 -81.5,323.9 -81.5,323.3 		"/>
+		<rect x="-78.1" y="323.7" transform="matrix(0.5 -0.866 0.866 0.5 -322.9458 96.6147)" width="0.6" height="8.6"/>
+		<polygon points="-72.5,329.2 -71.9,328.8 -71.9,340 -72.5,339.6 		"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 -72.4219 519.9783)" class="st87 st50">16</text>
+<image style="overflow:visible;" width="501" height="552" xlink:href="replacements to reduce
+waste or increase green score.png"  transform="matrix(0.24 0 0 0.24 15.9504 408.0418)">
+</image>
+<text transform="matrix(1 0 0 1 -0.1976 10.2251)" class="st87 st88">A</text>
+<text transform="matrix(1 0 0 1 4.493888e-05 148.7989)" class="st87 st88">B</text>
+<text transform="matrix(1 0 0 1 1.059740e-04 418.3364)" class="st87 st88">C</text>
+<text transform="matrix(1 0 0 1 151.3091 10.225)" class="st87 st88">D</text>
+<g>
+	<text transform="matrix(1 0 0 1 15.4789 621.2992)" class="st89 st50">H</text>
+	<text transform="matrix(1 0 0 1 19.8119 622.6791)" class="st89 st90">2</text>
+	<text transform="matrix(1 0 0 1 22.3143 621.2992)" class="st89 st50">O</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 79.8658 605.928)" class="st89 st50">O</text>
+	<text transform="matrix(1 0 0 1 68.8372 620.8528)" class="st89 st50">N</text>
+	<text transform="matrix(1 0 0 1 51.4371 622.4464)" class="st89 st50">N</text>
+	<text transform="matrix(1 0 0 1 87.411 623.0569)" class="st89 st50">N</text>
+	<text transform="matrix(1 0 0 1 97.4911 637.329)" class="st89 st50">N</text>
+	<rect x="78.4" y="610.9" transform="matrix(0.1178 -0.993 0.993 0.1178 -534.3939 620.9321)" width="7.8" height="0.6"/>
+	<rect x="76.4" y="610.7" transform="matrix(0.1178 -0.993 0.993 0.1178 -535.8693 618.8145)" width="7.8" height="0.6"/>
+	<polygon points="74.4,617.6 74.2,617 81,614.1 80.9,614.8 	"/>
+	<polygon points="68.9,629.5 68.4,629 69.9,622.2 70.5,622.3 	"/>
+	<polygon points="57.7,630.6 58,629.9 68.4,629 68.9,629.5 	"/>
+	<rect x="59.1" y="627.5" transform="matrix(0.9958 -9.119862e-02 9.119862e-02 0.9958 -56.993 8.3673)" width="8" height="0.6"/>
+	<polygon points="54.8,623.9 55.4,623.7 58,629.9 57.7,630.6 	"/>
+	<polygon points="61.7,612.8 61.8,613.6 56.7,618 56.3,617.5 	"/>
+	<rect x="57.1" y="617.1" transform="matrix(0.752 -0.6591 0.6591 0.752 -392.0851 192.556)" width="5.5" height="0.6"/>
+	<polygon points="61.8,613.6 61.7,612.8 67.9,616.5 67.6,617 	"/>
+	<polygon points="86.6,618.3 86.3,618.8 80.9,614.8 81,614.1 	"/>
+	<polygon points="100,617.4 99.8,618.1 92.9,620.2 92.7,619.6 	"/>
+	<polygon points="106.5,626.6 105.8,626.5 99.8,618.1 100,617.4 	"/>
+	<rect x="101.1" y="619.3" transform="matrix(0.8168 -0.5769 0.5769 0.8168 -340.9769 172.6745)" width="0.6" height="8"/>
+	<polygon points="102.3,632.2 101.8,631.8 105.8,626.5 106.5,626.6 	"/>
+	<polygon points="89.1,631.9 89.7,631.5 96.4,633.8 96.2,634.3 	"/>
+	<rect x="93.9" y="628.4" transform="matrix(0.3217 -0.9468 0.9468 0.3217 -533.8534 517.3331)" width="0.6" height="5.8"/>
+	<polygon points="89.7,631.5 89.1,631.9 89.2,624.2 89.8,624.2 	"/>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 132.8805 618.925)" class="st89 st50">Me</text>
+	<text transform="matrix(1 0 0 1 120.3571 624.3317)" class="st89 st50">Ph</text>
+	<rect x="127.9" y="619.6" transform="matrix(0.866 -0.5 0.5 0.866 -292.5281 148.0584)" width="4.2" height="0.6"/>
+</g>
+<text transform="matrix(1 0 0 1 17.8932 635.2993)"><tspan x="0" y="0" class="st87 st50">20</tspan><tspan x="-10" y="7.2" class="st49 st50">(5 counts)</tspan></text>
+<text transform="matrix(1 0 0 1 75.6263 635.2985)"><tspan x="0" y="0" class="st87 st50">21</tspan><tspan x="-10" y="7.2" class="st49 st50">(3 counts)</tspan></text>
+<text transform="matrix(1 0 0 1 127.4493 635.2985)"><tspan x="0" y="0" class="st87 st50">22</tspan><tspan x="-10" y="7.2" class="st49 st50">(3 counts)</tspan></text>
+<g>
+	<text transform="matrix(1 0 0 1 16.2292 565.1456)" class="st49 st50">MeI</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 74.7117 564.699)" class="st49 st50">Br</text>
+	<text transform="matrix(1 0 0 1 80.7117 566.0789)" class="st49 st90">2</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 137.8051 572.0533)" class="st89 st50">OMe</text>
+	<text transform="matrix(1 0 0 1 128.7855 566.6539)" class="st89 st50">S</text>
+	<text transform="matrix(1 0 0 1 133.8524 557.3018)" class="st89 st50">O</text>
+	<text transform="matrix(1 0 0 1 123.0536 557.3018)" class="st89 st50">O</text>
+	<text transform="matrix(1 0 0 1 110.766 572.0533)" class="st89 st50">MeO</text>
+	<rect x="135.2" y="565.1" transform="matrix(0.5 -0.866 0.866 0.5 -423.451 400.8948)" width="0.6" height="4"/>
+	<rect x="130.7" y="559.1" transform="matrix(0.5 -0.866 0.866 0.5 -418.1509 394.5308)" width="3.8" height="0.6"/>
+	<rect x="132.4" y="560.1" transform="matrix(0.5 -0.866 0.866 0.5 -418.1496 396.4702)" width="3.8" height="0.6"/>
+	<rect x="127" y="558.4" transform="matrix(0.866 -0.5 0.5 0.866 -263.1044 138.6982)" width="0.6" height="3.8"/>
+	<rect x="128.6" y="557.4" transform="matrix(0.866 -0.5 0.5 0.866 -262.3923 139.4091)" width="0.6" height="3.8"/>
+	<rect x="124.1" y="566.9" transform="matrix(0.866 -0.5 0.5 0.866 -266.6902 139.0383)" width="4" height="0.6"/>
+</g>
+<text transform="matrix(1 0 0 1 17.8932 578.1582)"><tspan x="0" y="0" class="st87 st50">17</tspan><tspan x="-10" y="7.2" class="st49 st50">(6 counts)</tspan></text>
+<text transform="matrix(1 0 0 1 75.6261 578.1581)"><tspan x="0" y="0" class="st87 st50">18</tspan><tspan x="-10" y="7.2" class="st49 st50">(5 counts)</tspan></text>
+<text transform="matrix(1 0 0 1 127.4497 578.1587)"><tspan x="0" y="0" class="st87 st50">19</tspan><tspan x="-10" y="7.2" class="st49 st50">(3 counts)</tspan></text>
+<rect x="5.7" y="545.6" class="st91" width="146.6" height="44.5"/>
+<rect x="31.5" y="542.4" class="st92" width="95" height="6.5"/>
+<text transform="matrix(1 0 0 1 34.9346 547.1542)" class="st49 st50">most ungreen reagents extracted</text>
+<rect x="5.7" y="595.9" class="st91" width="146.6" height="49.7"/>
+<rect x="31.5" y="592.7" class="st92" width="95" height="6.5"/>
+<text transform="matrix(1 0 0 1 32.7739 597.3959)" class="st49 st50">most common green replacements</text>
+<text transform="matrix(1 0 0 1 65.7876 286.2376)" class="st49 st50">frequency</text>
+<g>
+	<text transform="matrix(1 0 0 1 121.7146 325.2159)" class="st87 st50">12</text>
+	<text transform="matrix(1 0 0 1 27.8076 325.2158)" class="st87 st50">11</text>
+	<text transform="matrix(1 0 0 1 121.7148 363.442)" class="st87 st50">14</text>
+	<g>
+		<text transform="matrix(1 0 0 1 17.1335 334.4679)" class="st89 st50">N</text>
+		<text transform="matrix(1 0 0 1 26.4856 350.6661)" class="st89 st50">N</text>
+		<polygon points="47.4,333.7 47.8,333.2 52.6,343.1 52,343.1 		"/>
+		<polygon points="37.2,331.3 37,330.7 47.8,333.2 47.4,333.7 		"/>
+		<polygon points="28.9,337.9 28.7,337.7 28.6,337.4 37,330.7 37.2,331.3 		"/>
+		<polygon points="22.4,334.5 22.7,333.9 28.6,337.4 28.7,337.7 28.4,337.9 		"/>
+		<rect x="23.8" y="334.4" transform="matrix(0.5 -0.866 0.866 0.5 -280.1073 189.5701)" width="0.6" height="6"/>
+		<polygon points="10.2,337.9 9.7,337.6 15.9,334 16.2,334.5 		"/>
+		<polygon points="10.2,348.4 9.7,348.7 9.7,337.6 10.2,337.9 		"/>
+		<polygon points="19.3,353.6 19.3,354.3 9.7,348.7 10.2,348.4 		"/>
+		<polygon points="25.2,350.2 25.5,350.7 19.3,354.3 19.3,353.6 		"/>
+		<polygon points="28.9,345.1 28.4,345.1 28.4,337.9 28.7,337.7 28.9,337.9 		"/>
+		<polygon points="37.2,355 37,355.6 31.5,351.2 31.8,350.7 		"/>
+		<polygon points="47.4,352.6 47.8,353.1 37,355.6 37.2,355 		"/>
+		<polygon points="47.8,353.1 47.4,352.6 52,343.1 52.6,343.1 		"/>
+	</g>
+	<text transform="matrix(1 0 0 1 27.8073 363.4419)" class="st87 st50">13</text>
+	<g>
+		<text transform="matrix(1 0 0 1 122.7182 376.1071)" class="st89 st50">O</text>
+		<text transform="matrix(1 0 0 1 105.6962 392.3054)" class="st89 st50">NaO</text>
+		<text transform="matrix(1 0 0 1 132.0703 392.3054)" class="st89 st50">ONa</text>
+		<rect x="125.7" y="377.5" width="0.6" height="7.8"/>
+		<rect x="123.8" y="377.5" width="0.6" height="7.8"/>
+		<polygon points="118.8,388.7 118.5,388.2 125.1,384.4 125.1,385.1 		"/>
+		<polygon points="131.6,388.2 131.3,388.7 125.1,385.1 125.1,384.4 		"/>
+	</g>
+	<g>
+		<rect x="62" y="311.9" width="26.8" height="0.6"/>
+		<path d="M93.9,312.2l-6,1.5c0,0,0.7-0.9,0.7-1.5c0-0.7-0.7-1.6-0.7-1.6L93.9,312.2z"/>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 62.7857 308.2441)" class="st49 st50">3 instances</text>
+	</g>
+	<g>
+		<rect x="62.2" y="342.2" width="26.8" height="0.6"/>
+		<path d="M94.2,342.5l-6,1.5c0,0,0.7-0.9,0.7-1.5c0-0.7-0.7-1.6-0.7-1.6L94.2,342.5z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 61.7721 338.8706)" class="st49 st50">2 instances</text>
+	<text transform="matrix(1 0 0 1 62.7858 379.193)" class="st49 st50">2 instances</text>
+	<g>
+		<rect x="62" y="382.8" width="26.8" height="0.6"/>
+		<path d="M93.9,383.1l-6,1.5c0,0,0.7-0.9,0.7-1.5c0-0.7-0.7-1.6-0.7-1.6L93.9,383.1z"/>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 20.5603 379.801)" class="st89 st50">N</text>
+		<polygon points="32.1,394.2 32.1,393.5 41.1,388.3 41.7,388.6 		"/>
+		<rect x="31.5" y="389.2" transform="matrix(0.866 -0.5 0.5 0.866 -189.9509 70.0732)" width="8.6" height="0.6"/>
+		<polygon points="22.4,388.6 23,388.3 32.1,393.5 32.1,394.2 		"/>
+		<polygon points="22.4,381 23,381 23,388.3 22.4,388.6 		"/>
+		<rect x="24.4" y="381" width="0.6" height="6.3"/>
+		<polygon points="32.1,371.9 32.1,372.6 26.1,376.1 25.8,375.6 		"/>
+		<polygon points="41.7,377.5 41.1,377.8 32.1,372.6 32.1,371.9 		"/>
+		<rect x="35.5" y="372.4" transform="matrix(0.5 -0.866 0.866 0.5 -308.3036 219.317)" width="0.6" height="8.6"/>
+		<polygon points="41.1,377.8 41.7,377.5 41.7,388.6 41.1,388.3 		"/>
+	</g>
+	<text transform="matrix(1 0 0 1 27.8073 400.8293)" class="st87 st50">15</text>
+	<text transform="matrix(1 0 0 1 121.7148 400.8298)" class="st87 st50">16</text>
+	<g>
+		<text transform="matrix(1 0 0 1 105.7169 313.0201)" class="st89 st50">NNa(Si(Me)</text>
+		<text transform="matrix(1 0 0 1 137.3839 314.4)" class="st89 st90">3</text>
+		<text transform="matrix(1 0 0 1 139.8868 313.0201)" class="st89 st50">)</text>
+		<text transform="matrix(1 0 0 1 141.8844 314.4)" class="st89 st90">2</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 118.7995 343.2589)" class="st89 st50">NEt</text>
+		<text transform="matrix(1 0 0 1 128.8014 344.6388)" class="st89 st90">3</text>
+	</g>
+	<rect x="5.7" y="294.2" class="st91" width="146.6" height="110.4"/>
+	<rect x="30.5" y="291" class="st92" width="95" height="6.5"/>
+	<text transform="matrix(1 0 0 1 34.9365 295.8839)" class="st49 st50">most ungreen reagents extracted</text>
+	<text transform="matrix(1 0 0 1 25.1459 313.3506)" class="st89 st50">NaH</text>
+</g>
+</svg>
