@@ -17,11 +17,14 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from datetime import datetime
 from typing import Dict, List, Literal, Optional, Tuple
+from dotenv import load_dotenv
 
 import pandas as pd
 from openai import APIStatusError, OpenAI, RateLimitError
 from pydantic import BaseModel
 from tqdm import tqdm
+
+load_dotenv()
 
 # ---------------------------------------------------------------------------
 # Category ontology
@@ -284,29 +287,80 @@ class VerificationResult(BaseModel):
     comment: Optional[str] = None  # short explanation if disagreeing
 
 
-# ---------------------------------------------------------------------------
-# OpenAI client
-# ---------------------------------------------------------------------------
+# Global registry for clients
+_client: Optional[OpenAI] = None
 
-_shared_client: Optional[OpenAI] = None
-
-
-def get_shared_client() -> OpenAI:
+def get_shared_client(model_name: str) -> OpenAI:
     """
-    Shared OpenAI client, configured via OPENAI_API_KEY.
+    Returns an OpenAI client. If 'model_name' looks like an OpenAI model,
+    returns a client configured for OpenAI. Otherwise returns a client
+    configured via OPENAI_BASE_URL (vLLM).
     """
-    global _shared_client
-    if _shared_client is None:
-        from dotenv import load_dotenv
+    global _client
 
-        load_dotenv()
+    if model_name in ["openai/gpt-oss-120b", "openai/gpt-oss-3b"]:
+        is_local = True
+    else:
+        is_local = False
 
-        api_key = os.getenv("OPENAI_API_KEY")
-        if not api_key:
-            raise RuntimeError("OPENAI_API_KEY environment variable is not set.")
-        _shared_client = OpenAI(api_key=api_key)
 
-    return _shared_client
+    if _client is None:
+        if is_local:
+            local_url = os.getenv("OPENAI_BASE_URL")
+            if not local_url:
+                raise RuntimeError("use local model but OPENAI_BASE_URL is not set")
+            _client = OpenAI(base_url=local_url, api_key="dummy")
+        else: # use openai
+            api_key = os.getenv("OPENAI_API_KEY")
+            if not api_key:
+                raise RuntimeError("use openai model but OPENAI_API_KEY is not set")
+            _client = OpenAI(api_key=api_key)
+
+    return _client
+
+
+def call_structured_llm(
+    client: OpenAI,
+    model: str,
+    system_msg: str,
+    user_msg: str,
+    response_format: type[BaseModel],
+    use_vllm_guided: bool = False,
+) -> any:
+    """
+    Helper to call LLM with structured output, supporting both OpenAI (native parse) and vLLM (guided_json).
+    """
+    # Double check if we should be using vLLM guided based on the model name if not already set
+    if not use_vllm_guided:
+        if client.base_url and client.base_url.host != "api.openai.com":
+            use_vllm_guided = True
+
+    if use_vllm_guided: # Use chat + guided_json for vLLM
+        response = client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": system_msg},
+                {"role": "user", "content": user_msg},
+            ],
+            extra_body={"guided_json": response_format.model_json_schema()},
+            # response_format={"type": "json_schema", "json_schema": {"schema": response_format.model_json_schema()}}
+        )
+        content = response.choices[0].message.content
+        return response_format.model_validate_json(content)
+
+    else: # Use native parse for OpenAI
+        response = client.responses.parse(
+        model=model,
+        input=[
+            {"role": "system", "content": system_msg},
+            {"role": "user", "content": user_msg},
+        ],
+        reasoning={"effort": "medium"},
+        text={"verbosity": "low"},
+        text_format=response_format,
+        )
+        return response.output_parsed
+
 
 
 # ---------------------------------------------------------------------------
@@ -364,18 +418,16 @@ def classify_scaleup_problem_solution(
     }
     user_msg = json.dumps(user_payload, ensure_ascii=False)
 
-    response = client.responses.parse(
-        model=model,
-        input=[
-            {"role": "system", "content": system_msg},
-            {"role": "user", "content": user_msg},
-        ],
-        reasoning={"effort": "medium"},
-        text={"verbosity": "low"},
-        text_format=ScaleupClassification,
-    )
+    use_vllm_guided = client.base_url.host != "api.openai.com"
 
-    return response.output_parsed
+    return call_structured_llm(
+        client=client,
+        model=model,
+        system_msg=system_msg,
+        user_msg=user_msg,
+        response_format=ScaleupClassification,
+        use_vllm_guided=use_vllm_guided,
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -438,18 +490,16 @@ def verify_scaleup_classification(
     }
     user_msg = json.dumps(user_payload, ensure_ascii=False)
 
-    response = client.responses.parse(
-        model=model,
-        input=[
-            {"role": "system", "content": system_msg},
-            {"role": "user", "content": user_msg},
-        ],
-        reasoning={"effort": "medium"},
-        text={"verbosity": "low"},
-        text_format=VerificationResult,
-    )
+    use_vllm_guided = client.base_url.host != "api.openai.com"
 
-    return response.output_parsed
+    return call_structured_llm(
+        client=client,
+        model=model,
+        system_msg=system_msg,
+        user_msg=user_msg,
+        response_format=VerificationResult,
+        use_vllm_guided=use_vllm_guided,
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -474,7 +524,7 @@ class ClassificationError:
 def classify_row(
     idx: int,
     row: pd.Series,
-    max_retries: int = 5,
+    max_retries: int = 10, # increase retry budget
     backoff_initial: float = 1.0,
     model_classifier: str = "gpt-5.2",
     model_verifier: str = "gpt-5.2",
@@ -483,25 +533,28 @@ def classify_row(
     Worker function for ThreadPoolExecutor: classify + verify a single row.
     Returns either a ClassificationResult or a ClassificationError.
     """
-    client = get_shared_client()
     backoff = backoff_initial
 
     problem = str(row["Problem_Description"])
     solution = str(row["Solution_Description"])
+
+    # Resolve clients for each model
+    client_c = get_shared_client(model_classifier)
+    client_v = get_shared_client(model_verifier)
 
     for attempt in range(max_retries):
         try:
             primary = classify_scaleup_problem_solution(
                 problem=problem,
                 solution=solution,
-                client=client,
+                client=client_c,
                 model=model_classifier,
             )
             verification = verify_scaleup_classification(
                 problem=problem,
                 solution=solution,
                 primary=primary,
-                client=client,
+                client=client_v,
                 model=model_verifier,
             )
             return idx, ClassificationResult(idx, primary, verification), None
@@ -548,6 +601,7 @@ def run_batch_classification(
     mask_substring: Optional[str] = None,
     max_workers: int = 6,
     output_prefix: Optional[str] = None,
+    model: str = "gpt-5.2",
 ) -> Tuple[str, str]:
     """
     Run classification + verification over a DataFrame with optional filtering.
@@ -558,6 +612,7 @@ def run_batch_classification(
         mask_substring: if provided, only rows where mask_column contains this substring are processed.
         max_workers: thread pool size.
         output_prefix: prefix for output JSONL files; if None, a timestamped prefix is used.
+        model: model name for both classifier and verifier.
 
     Returns:
         (results_path, errors_path)
@@ -585,10 +640,17 @@ def run_batch_classification(
 
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = [
-            executor.submit(classify_row, idx, row) for idx, row in rows_to_process
+            executor.submit(
+                classify_row,
+                idx,
+                row,
+                model_classifier=model,
+                model_verifier=model,
+            )
+            for idx, row in rows_to_process
         ]
 
-        with tqdm(total=len(futures), desc="Classifying scale-up cases") as pbar:
+        with tqdm(total=len(futures), desc="Classifying scale-up cases", mininterval=300, ascii=True) as pbar:
             for fut in as_completed(futures):
                 idx, ok, err = fut.result()
 
@@ -685,6 +747,18 @@ if __name__ == "__main__":
         default=None,
         help="Prefix for output JSONL files; if omitted, uses a timestamp.",
     )
+    parser.add_argument(
+        "--exclude-jsonl",
+        type=str,
+        default=None,
+        help="Path to results JSONL file containing row_index to exclude.",
+    )
+    parser.add_argument(
+        "--model",
+        type=str,
+        default="gpt-5.2",
+        help="Model name to use for classification and verification.",
+    )
 
     args = parser.parse_args()
 
@@ -694,10 +768,26 @@ if __name__ == "__main__":
     else:
         df_in = pd.read_json(args.input)
 
+    # --- Temporary Exclusion Logic ---
+    if args.exclude_jsonl and os.path.exists(args.exclude_jsonl):
+        try:
+            finished_df = pd.read_json(args.exclude_jsonl, lines=True)
+            if "row_index" in finished_df.columns:
+                finished_indices = set(finished_df["row_index"].astype(int).tolist())
+                # Only keep rows whose index is NOT in the finished_indices set
+                df_in = df_in[~df_in.index.isin(finished_indices)]
+                print(f"Excluded {len(finished_indices)} rows already in {args.exclude_jsonl}. {len(df_in)} rows remaining.")
+            else:
+                print(f"Warning: 'row_index' column not found in {args.exclude_jsonl}. No rows excluded.")
+        except Exception as e:
+            print(f"Warning: Could not read exclusion file {args.exclude_jsonl}: {e}")
+    # ---------------------------------
+
     run_batch_classification(
         df=df_in,
         mask_column=args.mask_column,
         mask_substring=args.mask_substring,
         max_workers=args.max_workers,
         output_prefix=args.output_prefix,
+        model=args.model,
     )
