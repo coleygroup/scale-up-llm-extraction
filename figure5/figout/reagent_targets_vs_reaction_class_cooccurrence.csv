@@ -1,0 +1,24 @@
+reag,Carboxylic acid + amine condensation,Bromo Suzuki coupling,Amide Schotten-Baumann,SNAr ether synthesis,Esterification,Ring closing olefin metathesis,Ester hydrolysis,N-Boc deprotection,Nitro to amino,Ketone to alcohol reduction,Alkene hydrogenation,Acid to acid chloride,Bromo Buchwald-Hartwig amination,Chlorination,Bromination,Hydroamination,Carbamate Schotten-Baumann,Alcohol to aldehyde oxidation,Bromo N-alkylation,Aldehyde reductive amination,Carboxylic acid to acid chloride,Racemization,Bromo Suzuki-type coupling,Bromo Sonogashira coupling
+water,361,427,250,228,119,131,264,105,145,121,64,122,40,73,69,81,69,72,59,42,25,54,45,13
+tetrahydrofuran,107,155,107,108,33,54,52,32,90,21,32,6,34,8,13,31,8,4,14,21,22,11,27,26
+methanol,85,59,67,19,98,44,75,59,70,41,90,18,16,3,15,41,18,20,7,20,4,21,8,0
+toluene,61,106,61,43,19,70,21,30,11,12,16,6,70,29,0,15,10,12,16,5,34,8,8,3
+acetonitrile,161,36,94,51,36,50,6,25,5,23,0,26,2,34,38,0,17,14,35,11,0,10,4,9
+ethanol,82,76,45,36,65,29,21,41,84,26,61,37,3,2,0,6,4,18,0,12,0,0,3,6
+dimethylformamide,244,15,135,63,34,15,9,14,20,1,0,4,15,48,11,3,12,0,30,0,38,6,7,18
+dichloromethane,90,26,63,16,78,14,11,37,10,14,33,24,0,24,49,7,23,32,3,11,38,13,0,3
+ethyl acetate,111,22,63,30,31,30,13,33,18,13,11,20,7,5,10,12,10,12,8,5,0,0,0,5
+isopropanol,46,22,23,27,35,6,15,52,5,75,36,9,6,0,5,25,8,5,6,0,0,2,4,0
+dimethyl sulfoxide,58,15,6,100,6,6,12,5,20,14,0,0,13,5,0,0,0,9,5,18,0,4,0,0
+methyl tert-butyl ether,24,12,11,15,17,8,2,38,5,23,12,1,5,1,9,0,6,5,12,4,0,5,3,3
+dioxane,2,120,5,0,0,17,10,19,2,0,1,12,27,0,0,0,0,0,9,0,0,0,32,0
+heptane,37,20,31,19,8,5,23,19,5,0,5,12,7,7,0,3,19,5,1,4,2,6,0,0
+2-methyltetrahydrofuran,54,23,22,28,9,18,3,0,5,4,3,2,7,0,8,3,9,0,0,2,0,0,1,0
+acetone,36,4,13,45,0,38,5,19,0,2,0,14,0,0,5,3,13,0,4,2,0,10,4,0
+n-methyl-2-pyrrolidone,66,0,26,49,0,0,3,6,0,0,0,5,10,5,0,0,1,10,6,5,0,3,0,16
+dimethylacetamide,19,14,6,28,7,2,4,0,0,0,0,0,11,5,0,0,1,0,2,5,0,0,10,10
+hexane,4,3,5,16,0,8,3,0,0,1,10,0,2,1,5,2,4,0,0,0,0,0,0,0
+benzene,0,16,0,0,0,1,0,1,8,0,0,0,4,0,0,0,0,0,2,0,0,2,0,0
+diethyl ether,9,0,0,0,0,8,0,4,0,7,0,0,0,0,1,0,0,0,0,0,0,5,0,0
+cyclopentyl methyl ether,8,0,0,0,0,2,0,0,0,9,0,0,0,0,0,0,0,3,0,0,0,0,0,0
+chloroform,0,0,2,0,2,13,0,0,0,5,0,3,0,0,2,0,0,0,0,0,0,0,2,0

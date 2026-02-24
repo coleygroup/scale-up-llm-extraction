@@ -1,0 +1,12 @@
+problemCategory,Carboxylic acid + amine condensation,Amide Schotten-Baumann,Bromo Suzuki coupling,SNAr ether synthesis,Esterification,Ring closing olefin metathesis,Nitro to amino,Alkene hydrogenation,Ester hydrolysis,Ketone to alcohol reduction,N-Boc deprotection,Bromo Buchwald-Hartwig amination,Acid to acid chloride,Bromination,Chlorination,Hydroamination,Bromo N-alkylation,Alcohol to aldehyde oxidation,Carbamate Schotten-Baumann,Racemization,Aldehyde reductive amination,Amide hydrolysis,Bromo Suzuki-type coupling,Carboxylic acid to acid chloride
+[PURIFICATION],205,124,114,120,84,61,57,40,69,38,58,33,53,29,25,28,25,17,28,21,20,21,21,18
+[LOW YIELD],179,113,112,106,65,64,53,54,46,57,26,39,18,32,19,29,25,24,24,20,22,16,17,10
+[MIXABILITY],102,59,72,79,45,61,33,37,27,24,29,33,22,18,18,16,26,15,15,16,14,7,10,5
+[SOLUBILITY],120,68,65,62,63,41,32,25,41,27,22,20,27,20,22,9,22,17,13,14,15,11,8,14
+[COST],90,65,63,36,53,38,32,30,20,33,24,25,17,8,10,12,14,11,15,12,6,10,13,10
+[SAFETY],58,37,19,40,36,40,37,27,10,10,28,6,23,19,17,18,4,16,7,6,9,8,9,16
+[DECOMPOSITION],39,19,26,18,14,22,17,13,18,18,12,5,8,4,7,15,4,7,7,11,10,10,5,5
+[EXOTHERMIC],22,13,15,16,21,27,22,15,10,12,4,5,5,20,17,8,4,11,7,5,5,5,1,4
+[LONG_REACTIONS],38,23,20,16,22,15,12,9,6,13,8,11,7,1,1,2,7,2,3,8,6,7,2,3
+[VARIABILITY],37,18,20,21,6,10,8,10,5,7,1,7,3,4,2,2,0,3,2,1,4,1,2,1
+[AVAILABILITY],2,4,1,0,3,3,1,1,0,0,0,2,1,1,1,0,1,0,0,0,0,0,0,1
